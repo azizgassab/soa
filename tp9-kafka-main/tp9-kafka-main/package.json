@@ -1,0 +1,20 @@
+{
+  "name": "tp9-kafka",
+  "version": "1.0.0",
+  "description": "TP9 - Intégration et Manipulation de Données avec Apache Kafka 4.2 (KRaft) + Node.js + PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "producer": "node src/producer.js",
+    "consumer": "node src/consumer.js",
+    "api": "node src/api.js",
+    "start": "node src/api.js"
+  },
+  "author": "Maissa Dhahri - GL1 2025/2026",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.12.0"
+  }
+}
